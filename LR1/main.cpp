@@ -1,16 +1,21 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    cout << "Hi!" << endl;
-     cout << "beautiful weather today" << endl;
-     cout << "How are you doing?" << endl;
-     cout << "I would like to spend time with you today" << endl;
-     cout << "would you like to go to the cinema?ам" << endl;
-     cout<<"hope we have a good time"<<endl;
+    setlocale(0, "");
+    double x, y, z, S;
 
+    cout << "¬ведите x,y,z\n";
+    cin >> x >> y >> z;
+
+    if (x + y > z)
+    {
+        cout << "s= x+y+z\n";
+    }
+    else {
+        if (x + y <=z)
+            cout << "s= x+y-z.";
+    }
     return 0;
-
 }
